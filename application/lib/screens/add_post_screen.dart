@@ -70,7 +70,6 @@ class _AddPostScreenState extends State<AddPostScreen> {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
-            // mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ListTile(
                 leading: const Icon(Icons.attach_file),

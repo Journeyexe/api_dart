@@ -25,27 +25,3 @@ class PostModel {
     };
   }
 }
-
-class ComentarioModel {
-  final int id;
-  final String text;
-
-  ComentarioModel({
-    required this.id,
-    required this.text,
-  });
-
-  factory ComentarioModel.fromMap(Map<String, dynamic> map) {
-    return ComentarioModel(
-      id: map['id'],
-      text: map['text'],
-    );
-  }
-
-  Map<String, dynamic> toMap() {
-    return <String, dynamic>{
-      'id': id,
-      'text': text,
-    };
-  }
-}
